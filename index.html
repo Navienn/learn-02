@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Laba 3. Var 1. Max or min</title>
+    </head>
+    <body>
+        <div id="wait" class="wait"><img src="pictures/okeoke.png"></div>
+        <form>
+            <label for="num1">Введите 1 число(например: 4, -8, 2.6):</label>
+            <input id="num1" type="text"> <br><br>
+            <label for="num2">Введите 2 число(наример: 4, -8, 2.6):</label> 
+            <input id="num2" type="text"> <br><br>
+            <label for="radio">Какое число хотите найти?</label> <br>
+            <input type="radio" name="maxmins" value="Max">Max <br>
+            <input type="radio" name="maxmins" value="Min">Min   
+            <br> <br>
+            <label for="button">Для получения результата нажмите на клавишу enter или кнопку ниже.</label> <br>
+            <button type="button" onclick="maxormin()">Результат</button>
+            <br><br>
+            <input id="result" type="text" readonly>
+            <br><br><p>При бездействии появится картинка, просто подвигайте мышью</p>
+        </form>
+    </body>
+    <script src="script/script.js"></script>
+</html>
